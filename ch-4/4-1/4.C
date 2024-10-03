@@ -7,10 +7,10 @@ main(){
 
      clrscr();
 
-     printf("enter value of a : ");
+     printf("enter value of p : ");
      scanf("%f",&p);
 
-     printf("enter value of b : ");
+     printf("enter value of q : ");
      scanf("%f",&q);
 
      r=(p+q)*(p+q)*(p+q);
