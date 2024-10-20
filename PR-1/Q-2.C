@@ -5,7 +5,7 @@ main(){
 
       float bs,hra,da,ta,gs;
 
-      clrscr();
+      
 
       printf("enter basic salary : ");
       scanf("%f",&bs);
