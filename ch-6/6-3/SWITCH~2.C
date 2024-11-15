@@ -8,7 +8,7 @@ main(){
      char name[10];
      double j;
 
-     clrscr();
+     
 
      printf("press 1 for R K travels\n");
      printf("press 2 for RAJDHANI travels\n");
@@ -19,7 +19,7 @@ main(){
     switch(a)
     {
 	case 1:
-	     clrscr();
+	     
 	     printf("R K travels\n");
 
 	     printf("press 1 for surat to bhavnagar\n");
@@ -30,7 +30,7 @@ main(){
 	     switch(b)
 	     {
 		case 1:
-			clrscr();
+			
 			printf("surat to bhavnagar\n");
 
 			printf("press 1 for A.C BUS\n");
@@ -40,7 +40,7 @@ main(){
 			switch(c)
 			{
 				case 1 :
-					clrscr();
+					
 					printf("A.C BUS\n");
 
 					printf("press 1 for morning\n");
@@ -51,7 +51,7 @@ main(){
 					switch(d)
 					{
 						case 1 :
-							clrscr();
+							
 							printf("morning\n");
 
 							printf("press 1 for 8.30 AM\n");
@@ -63,7 +63,7 @@ main(){
 							switch(e)
 							{
 								case 1 :
-									clrscr();
+									
 									printf("8.30 AM\n");
 
 									printf("press 1 for Bus booking\n");
@@ -74,7 +74,7 @@ main(){
 									switch(f)
 									{
 										case 1 :
-											clrscr();
+											
 											printf("Bus booking\n");
 
 											printf("press 1 for single sofo\n");
@@ -85,7 +85,7 @@ main(){
 											switch(g)
 											{
 												case 1 :
-													clrscr();
+													
 													printf("single sofo\n");
 
 													printf("press 1 for price is 600 rupees\n");
@@ -95,7 +95,7 @@ main(){
 													switch(h)
 													{
 														case 1 :
-														clrscr();
+														
 															printf("price is 600 rupees\n");
 
 															printf("enter your name : ");
@@ -110,13 +110,13 @@ main(){
 															switch(i)
 															{
 																case 1 :
-																	clrscr();
-																	printf("----------- BUS TICKET ---------------\n");
-
+																	
+																	printf("---------- BUS TICKET ----------\n");
+																	
 																	printf("%s",name);
-
+																	
 																	printf("%lf",i);
-
+																	
 																	tax = p*(18.00/100.00);
 
 																	total = p + tax;
@@ -124,7 +124,6 @@ main(){
 																	printf("your ticket payment is %d\n",total);
 
 																	printf("-------------------------------------------\n");
-
 															}
 					 								}
 					 						}
