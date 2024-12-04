@@ -12,18 +12,18 @@ main()
 
     for (int i = 0; i < length; i++)
     {
-        int frequency = 1;
+        int f = 1;
 
         for (int j = i + 1; j < length; j++)
         {
             if (name[i] == name[j])
             {
-                frequency++;
+                f++;
                 name[j] = NULL;
             }
         }
 
         if (name[i] != NULL)
-            printf("%c => %d\n", name[i], frequency);
+            printf("%c => %d\n", name[i], f);
     }
 }
