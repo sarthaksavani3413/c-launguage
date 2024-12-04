@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+
+main(){
+     float b,h;
+     clrscr();
+
+     printf("enter the baseof tringle : ");
+     scanf("%f",&b);
+     printf("enter the height of tringle:");
+     scanf("%f",&h);
+     printf("enter the tringle value : %.2f",b*h/2);
+
+     getch();
+}

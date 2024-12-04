@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+#define pi 3.14
+
+main(){
+     int l=10,w=10;
+     clrscr();
+
+     printf("enter the length of rectangle:");
+     scanf("%d",&l);
+     printf("enter the width of rectangle:");
+     scanf("%d",&w);
+     printf("enter the rectangle value %d",l*w);
+
+     getch();
+}
