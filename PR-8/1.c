@@ -16,5 +16,5 @@ void main()
         ptr++;
     } while (*ptr != '\0');
 
-    printf("the string of length : %d", length);
+    printf("The string of length : %d", length);
 }
